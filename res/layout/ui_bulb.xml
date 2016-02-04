@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/framelayout_bulb"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:visibility="gone">
+
+    <ImageView
+        android:id="@+id/imageView_Bulb" 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/bulb_control"
+        android:onClick="onClick_Bulb"/>
+        
+    <com.palmerkuo.superflashlight.widget.HideTextView
+        android:id="@+id/bulb_Text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="点击点亮灯泡"
+        android:textSize="20sp"/>
+
+</FrameLayout>
